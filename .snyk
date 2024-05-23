@@ -1,8 +1,13 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:http-signature:20150122':
     - tap > codecov.io > request > http-signature:
         patched: '2020-02-07T14:30:00.093Z'
+  SNYK-JS-LODASH-567746:
+    - mongoose > async > lodash:
+        patched: '2024-05-21T01:08:48.656Z'
+        id: SNYK-JS-LODASH-567746
+        path: mongoose > async > lodash
