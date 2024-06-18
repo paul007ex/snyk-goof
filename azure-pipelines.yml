@@ -23,7 +23,7 @@ steps:
 
 # Run the ZAP scan
 - script: |
-    zap-full-scan.py -t http://your-app-url -r zap_report.html
+    zap-full-scan.py -t https://www.google.com -r zap_report.html
   displayName: 'Run ZAP Scan'
 
 # Publish the scan results
